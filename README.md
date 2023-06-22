@@ -1,2 +1,5 @@
 # Hangman-game
 implements a basic text-based
+pick_word() function randomly selects a word from a list of predefined words. The play_game() function is the main function that manages the gameplay. It initializes the word, an empty list for guessed letters, and the number of tries. It then enters a loop where the player is prompted to guess a letter. The input is validated, and if the guess is correct, the letter is added to the list of guessed letters. If the guess is incorrect, the number of tries is decreased. The loop continues until the player either guesses the word or runs out of tries.
+
+To play the game, you can call the play_game() function. The player needs to enter a single letter as a guess, and the game will provide feedback on whether the guess is correct or not. The game will display the current state of the word, with correct letters revealed and empty spaces for unguessed letters. The game continues until the player either guesses the word correctly or runs out of tries.
